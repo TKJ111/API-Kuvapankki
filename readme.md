@@ -5,6 +5,4 @@ Kuvapankki joka hakee kuvat pixabay API:n kautta
 - Sitten hakutermi jolla kuvia etsitään
 
 - Kun haku on valmis (noin sekunnissa)
-- Esiin tulee kuva, tykkäyksien määrä, näyttökerrat ja kuvan julkaisian käyttäjänimi
-
-- 
+- Esiin tulee kuva, tykkäyksien määrä, näyttökerrat ja kuvan julkaisijan käyttäjänimi
