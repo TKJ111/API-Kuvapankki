@@ -23,6 +23,7 @@ function vaihdakuva() {
             }
             else {
                 console.error("ei kuvia");
+                kuvakontti.innerHTML = "Ei kuvia hakusanalla " + hakutermi;
             }
         })
         .catch(error => console.error("virhe haussa", error));
