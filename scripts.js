@@ -19,7 +19,7 @@ function vaihdakuva() {
                     img.alt = hakutermi;
 
                     const tekija = document.createElement("p");
-                    tekija.textContent = `⇧ Kuvan tekijän käyttäjänmi: ${data.hits[i].user}`;
+                    tekija.textContent = `⇧ Kuvan tekijän käyttäjänimi: ${data.hits[i].user}`;
                     kuvakontti.appendChild(tekija);
 
                     const likes = document.createElement("p");
