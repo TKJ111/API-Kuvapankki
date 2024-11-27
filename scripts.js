@@ -17,6 +17,18 @@ function vaihdakuva() {
                     img.src = data.hits[i].webformatURL;
                     kuvakontti.appendChild(img);
                     img.alt = hakutermi;
+
+                    const tekija = document.createElement("p");
+                    tekija.textContent = `⇧ Kuvan tekijän käyttäjänmi: ${data.hits[i].user}`;
+                    kuvakontti.appendChild(tekija);
+
+                    const likes = document.createElement("p");
+                    likes.textContent = `⇧ Kuvan Tykkäykset: ${data.hits[i].likes}`;
+                    kuvakontti.appendChild(likes);
+
+                    const views = document.createElement("p");
+                    views.textContent = `⇧ Kuvan Näyttökerrat: ${data.hits[i].views}`;
+                    kuvakontti.appendChild(views);
     
                     //document.getElementById("vaihtuvakuva").src = data.hits[i].webformatURL;
                 }
